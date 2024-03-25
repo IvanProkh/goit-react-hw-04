@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -37,4 +49,5 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
