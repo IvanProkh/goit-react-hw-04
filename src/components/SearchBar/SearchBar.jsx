@@ -6,7 +6,7 @@ import { Field, Form, Formik } from 'formik';
 export default function SearchBar({ onSubmit }) {
   return (
     <header className={css.header}>
-      <a href="../../App.jsx">
+      <a href="/">
         <h1 className={css.title}>Image Gallery</h1>
       </a>
       <Formik
